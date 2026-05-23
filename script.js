@@ -1,6 +1,4 @@
-### Código Inicial
-`viajes.js`
-```javascript
+
 // viajes.js
 
 // Array para guardar los destinos
@@ -54,9 +52,7 @@ function mostrarItinerario() {
         console.log("---------------------------");
     }
 }
-```
-`app.js`
-```javascript
+
 // app.js
 
 // Iniciar la aplicación
@@ -71,4 +67,3 @@ function iniciarApp() {
 
 // Ejecutar la aplicación
 iniciarApp();
-```
