@@ -41,7 +41,7 @@ const calcularCosto = (destino, transporte) => {
 }
 
 // Función para mostrar el itinerario de los viajes registrados
-function mostrarItinerario() {
+const mostrarItinerario = () => {
     // TODO: Recorrer el arreglo de destinos y mostrar la información de cada uno
     for (let i = 0; i < destinos.length; i++) {
         const viaje = destinos[i];
