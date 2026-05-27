@@ -5,12 +5,12 @@
 const destinos = [];
 
 // Función para registrar un destino de viaje
-function registrarDestino(destino, fecha, transporte) {
+const registrarDestino = (destino, fecha, transporte) => {
     // TODO: Crear un objeto con los datos del destino
     const nuevoViaje = {
-        destino: destino,
-        fecha: fecha,
-        transporte: transporte,
+        destino,
+        fecha,
+        transporte,
         costo: calcularCosto(destino, transporte)
     };
 
