@@ -18,7 +18,7 @@ const registrarDestino = (destino, fecha, transporte) => {
 }
 
 // Función para calcular el costo del viaje
-function calcularCosto(destino, transporte) {
+const calcularCosto = (destino, transporte) => {
     let costoBase = 0;
 
     // Costo base por destino
